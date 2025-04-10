@@ -11,3 +11,6 @@ matplotlib
 onnxruntime
 onnxruntime-gpu
 onnx
+librosa
+soundfile
+pydub
