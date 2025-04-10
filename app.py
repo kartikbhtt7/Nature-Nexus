@@ -6,8 +6,15 @@ import tempfile
 import librosa
 import librosa.display
 import matplotlib.pyplot as plt
+import tempfile
+import librosa
+import librosa.display
+import matplotlib.pyplot as plt
 from PIL import Image
 import torch
+
+# Import deforestation modules
+from prediction_engine import load_onnx_model
 
 # Import deforestation modules
 from prediction_engine import load_onnx_model
@@ -30,6 +37,7 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
+
 
 # Constants
 DEFOREST_MODEL_INPUT_SIZE = 256
