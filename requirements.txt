@@ -1,0 +1,13 @@
+streamlit
+torch
+torchvision
+opencv-python
+albumentations
+numpy
+Pillow
+scikit-image
+scikit-learn
+matplotlib
+onnxruntime
+onnxruntime-gpu
+onnx
