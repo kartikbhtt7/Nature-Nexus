@@ -14,3 +14,4 @@ onnx
 librosa
 soundfile
 pydub
+supervision
