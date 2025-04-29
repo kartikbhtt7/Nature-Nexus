@@ -17,7 +17,7 @@ The application leverages:
 - Provides detailed metrics on forest coverage and deforestation levels
 - Visualizes results with color-coded overlays
 
-![Image Description](imgs\deforestation.png)
+![Image Description](imgs/deforestation.png)
 
 ### 2. Forest Audio Surveillance
 - Detects unusual sounds that may indicate illegal activities
@@ -28,7 +28,7 @@ The application leverages:
   - **Other Sounds**: Crackling fire, fireworks
 - Supports both uploaded audio files and real-time recording
 
-![Image Description](imgs\audio.png)
+![Image Description](imgs/audio.png)
 
 ### 3. Object Detection
 - Identifies potential threats using YOLOv11 model
@@ -39,7 +39,7 @@ The application leverages:
 - Processes images, videos, and camera feeds
 - Alerts on potential threats with confidence scores
 
-![Image Description](imgs\yolo.png)
+![Image Description](imgs/yolo.png)
 
 ## Getting Started
 
