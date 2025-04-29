@@ -91,43 +91,18 @@ The application will open in your default web browser at http://localhost:8501
 - **Input**: Satellite/aerial imagery (RGB)
 - **Output**: Binary segmentation mask (forest vs. deforested)
 - **Optimization**: ONNX runtime for faster inference
-- **Dataset**: The model was trained using multiple datasets:
-  - **Amazon Rainforest Dataset for Semantic Segmentation** by Bragagnolo, Lucimara; da Silva, Roberto Valmir; Grzybowski, José Mario Vicensi
-    - Contains 30 GeoTIFF training images (512x512 pixels) with PNG masks (forest in white, non-forest in black)
-    - 15 GeoTIFF validation images with masks
-    - 15 GeoTIFF test images
-  - **Amazon and Atlantic Forest Image Datasets for Semantic Segmentation** by the same creators
-    - Training dataset: 499 Amazon and 485 Atlantic Forest GeoTIFF images (512x512 pixels) with PNG masks
-    - Validation dataset: 100 GeoTIFF images per biome with masks
-    - Test dataset: 20 GeoTIFF images per biome
-  - **Forest Aerial Images for Segmentation** from Kaggle (https://www.kaggle.com/datasets/quadeer15sh/augmented-forest-segmentation)
-  - The 4-channel datasets were converted to 3-channel and merged
-
-[Space for deforestation model architecture visualization]
 
 ### Audio Classification Model
 - **Architecture**: Convolutional Neural Network (CNN)
 - **Input**: Audio spectrograms
 - **Output**: 14 sound classes with confidence scores
 - **Features**: Mel-spectrogram analysis
-- **Dataset**: **ESC-50: Dataset for Environmental Sound Classification**
-  - Contains various environmental sounds categorized for machine learning applications
-  - Used to train the model to recognize forest-relevant sounds including human activity, tools, vehicles, and natural sounds
-
-[Space for audio model architecture visualization]
 
 ### Object Detection Model
 - **Architecture**: YOLOv11
 - **Input**: Images/video frames
 - **Output**: Bounding boxes, class labels, confidence scores
 - **Classes**: Humans, vehicles, fire, smoke, etc.
-- **Dataset**: A merged collection of several datasets from Roboflow, optimized for detecting forest-relevant objects such as:
-  - Human presence (trespassers, loggers)
-  - Various vehicles (trucks, cars, motorcycles)
-  - Fire and smoke detection
-  - Logging equipment
-
-[Space for YOLO model architecture visualization]
 
 ## System Architecture
 
